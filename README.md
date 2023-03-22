@@ -4,7 +4,7 @@ Code Runner is a simple web-based code editor that allows users to write, run an
 Features
 Run and test code snippets directly in the browser
 Open source and free to use and edit
-Light Wieght
+Light Wieght beacuse as it stands now it only 4KB!
 Simple layout
 
 

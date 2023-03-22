@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Code Runner</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/codemirror.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/theme/midnight.min.css">
+  <style>
+    body {
+      background-color: #2c3e50;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    #mode-selector {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    #mode-selector label {
+      font-size: 20px;
+      margin-right: 10px;
+    }
+
+    #editor-container {
+      height: 500px;
+      margin: 0 auto;
+      max-width: 800px;
+    }
+
+    #run-btn {
+      display: block;
+      margin: 20px auto;
+      padding: 10px 20px;
+      background-color: #66717B;
+      border: none;
+      color: #fff;
+      font-size: 20px;
+      cursor: pointer;
+      border-radius: 10px;
+    }
+
+    .CodeMirror {
+      height: 500px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div id="mode-selector">
+    <label for="mode-select">Mode:</label>
+    <select id="mode-select">
+      <option value="html">HTML</option>
+      <option value="javascript">JavaScript</option>
+      <option value="mixed">Mixed</option>
+    </select>
+  </div>
+  <div id="editor-container"></div>
+  <button id="run-btn">Run</button>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/codemirror.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/mode/javascript/javascript.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.62.0/mode/xml/xml.min.js"></script>
+  <script src="runner.js"></script>
+</body>
+</html>

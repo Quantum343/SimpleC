@@ -1,10 +1,11 @@
 Code Runner
-Code Runner is a simple web-based code editor that allows users to write, run and test code snippets in HTML, JavaScript or mixed mode. It is designed to be lightweight, fast and easy to use.
+Code Runner is a simple web-based code editor that allows users to write, run and test code snippets in HTML, CSS, and JavaScript. It is designed to be lightweight, fast and easy to use.
 
 Features
 Run and test code snippets directly in the browser
-Dark theme
-Open source and free to use
+Open source and free to use and edit
+Light Wieght
+Simple layout
 
 
 Usage
